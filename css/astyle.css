@@ -48,11 +48,16 @@
 		position: absolute;
 		left: 0;
 		transform: translateX(20px);
+		width: 34px;
+		height: 34px;
 	}
 	.arrow_right {
 		position: absolute;
 		right: 0;
 		transform: translateX(-20px);
+		background: rgba(000, 000, 000, 0.5);
+		width: 34px;
+		height: 34px;
 	}
 }
 @media only screen and (max-width: 400px) { 

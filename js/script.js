@@ -87,8 +87,8 @@ setInterval(function(){
 }, 500);
 
 function arrow_left() {
-	let icon_arrow_left = document.querySelector('.icon_arrow_left');
-	icon_arrow_left.addEventListener('click', () => {
+	let arrow_left = document.querySelector('.arrow_left');
+	arrow_left.addEventListener('click', () => {
 		if (counter > 0) {
 			elementDot[counter].classList.remove(activClass);
 			counter--;
@@ -105,8 +105,8 @@ function arrow_left() {
 }
 arrow_left();
 function arrow_right() {
-	let icon_arrow_right = document.querySelector('.icon_arrow_right');
-	icon_arrow_right.addEventListener('click', () => {
+	let arrow_right = document.querySelector('.arrow_right');
+	arrow_right.addEventListener('click', () => {
 		if(counter < sliderElementsLength - 1) {
 			elementDot[counter].classList.remove(activClass);
 			counter++;

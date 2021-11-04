@@ -2,6 +2,9 @@
 	.item_img {
 		height: 400px;
 	}
+	.slider_container {
+		width: 75%;
+	}
 }
 @media only screen and (max-width: 768px) {
 	.item_img {
@@ -23,7 +26,7 @@
 }
 @media only screen and (max-width: 480px) {
 	.slider_container {
-		width: 100%;
+		width: 95%;
 	}
 	.item_img {
 		height: 200px;
@@ -42,12 +45,14 @@
 		font-size: 30px;
 	}
 	.arrow_left {
-		transform: translateX(45px);
-		z-index: 50;
+		position: absolute;
+		left: 0;
+		transform: translateX(20px);
 	}
 	.arrow_right {
-		transform: translateX(-45px);
-		z-index: 50;
+		position: absolute;
+		right: 0;
+		transform: translateX(-20px);
 	}
 }
 @media only screen and (max-width: 400px) { 
@@ -62,9 +67,9 @@
 		opacity: 0.8;
 	}
 	.arrow_left {
-		transform: translateX(40px);
+		transform: translateX(15px);
 	}
 	.arrow_right {
-		transform: translateX(-40px);
+		transform: translateX(-15px);
 	}
 }

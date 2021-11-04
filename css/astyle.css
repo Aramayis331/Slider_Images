@@ -17,6 +17,11 @@
 		width: 18px;
 		height: 18px;
 	}
+	.arrow_left, .arrow_right { 
+		margin: 0px 15px;
+		width: 45px;
+		height: 45px;
+	}
 	.container_dots {
 		margin-top: 15px;
 	}
@@ -42,19 +47,19 @@
 		margin-top: 10px;
 	}
 	.icon_arrow_left, .icon_arrow_right {
-		font-size: 30px;
+		font-size: 28px;
 	}
 	.arrow_left {
 		position: absolute;
 		left: 0;
-		transform: translateX(20px);
+		transform: translateX(15px);
 		width: 34px;
 		height: 34px;
 	}
 	.arrow_right {
 		position: absolute;
 		right: 0;
-		transform: translateX(-20px);
+		transform: translateX(-15px);
 		width: 34px;
 		height: 34px;
 	}
@@ -67,11 +72,5 @@
 	}
 	.icon_arrow_left, .icon_arrow_right {
 		font-size: 25px;
-	}
-	.arrow_left {
-		transform: translateX(15px);
-	}
-	.arrow_right {
-		transform: translateX(-15px);
 	}
 }

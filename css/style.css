@@ -23,7 +23,7 @@ body {
 	display: flex;
 }
 .item {
-	min-width: 20%;
+	min-width: 21%;
 	position: relative;
 }
 .item_img {

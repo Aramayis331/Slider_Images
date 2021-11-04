@@ -135,17 +135,17 @@ function clickDots() {
 }
 clickDots();
 
-// setInterval(function() {
-// 	if(counter < sliderElementsLength - 1) {
-// 		elementDot[counter].classList.remove(activClass);
-// 		counter++;
-// 		slider.style.transition = 'transform 0.5s ease-in-out';
-// 		slider.style.transform = 'translateX(' + (-size * counter) + 'px)';
-// 	} else {
-// 		elementDot[counter].classList.remove(activClass);
-// 		counter = 0;
-// 		slider.style.transition = 'transform 0s ease-in-out';
-// 		slider.style.transform = 'translateX(' + (-size * counter) + 'px)';
-// 	}
-// 	elementDot[counter].classList.add(activClass);
-// }, 5000)
+setInterval(function() {
+	if(counter < sliderElementsLength - 1) {
+		elementDot[counter].classList.remove(activClass);
+		counter++;
+		slider.style.transition = 'transform 0.5s ease-in-out';
+		slider.style.transform = 'translateX(' + (-size * counter) + 'px)';
+	} else {
+		elementDot[counter].classList.remove(activClass);
+		counter = 0;
+		slider.style.transition = 'transform 0s ease-in-out';
+		slider.style.transform = 'translateX(' + (-size * counter) + 'px)';
+	}
+	elementDot[counter].classList.add(activClass);
+}, 5000)

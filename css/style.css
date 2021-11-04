@@ -1,0 +1,81 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	background-color: cadetblue;
+}
+.wrapper { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+.slider_container {
+	width: 70%;
+	overflow: hidden;
+	border-radius: 25px;
+	border: 2px solid #000000;
+}
+.slider {
+	width: 500%;
+	display: flex;
+}
+.item {
+	min-width: 20%;
+	position: relative;
+}
+.item_img {
+	width: 100%;
+	height: 500px;
+}
+.item_img img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.item_text {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	background: rgba(000, 000, 000, 0.5);
+}
+.item_text p {
+	cursor: pointer;
+	margin: 5px;
+	font-size: 30px;
+	color: #ffffff;
+}
+.icon_arrow_left, .icon_arrow_right {
+	cursor: pointer;
+	font-size: 35px;
+	margin: 5px;
+	color: aquamarine;
+	opacity: 0.8;
+}
+.container_dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+}
+.dots {
+	display: flex;
+}
+.elementDot {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px solid #000000;
+	background: rgba(000, 000, 000, 0.2);
+	cursor: pointer;
+	margin: 0px 5px;
+}
+.elementDotHover {
+	background: rgba(000, 000, 000, 1);
+	transition: 0.5s;
+}

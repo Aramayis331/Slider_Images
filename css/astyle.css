@@ -55,7 +55,6 @@
 		position: absolute;
 		right: 0;
 		transform: translateX(-20px);
-		background: rgba(000, 000, 000, 0.5);
 		width: 34px;
 		height: 34px;
 	}
@@ -68,7 +67,6 @@
 	}
 	.icon_arrow_left, .icon_arrow_right {
 		font-size: 25px;
-		opacity: 0.8;
 	}
 	.arrow_left {
 		transform: translateX(15px);

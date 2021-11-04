@@ -52,14 +52,16 @@
 	.arrow_left {
 		position: absolute;
 		left: 0;
-		transform: translateX(15px);
+		margin: 5px;
+		transform: translateX(13px);
 		width: 34px;
 		height: 34px;
 	}
 	.arrow_right {
 		position: absolute;
 		right: 0;
-		transform: translateX(-15px);
+		margin: 5px;
+		transform: translateX(-13px);
 		width: 34px;
 		height: 34px;
 	}

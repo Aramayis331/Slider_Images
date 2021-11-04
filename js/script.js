@@ -48,7 +48,7 @@ function addElementsSlider() {
 		htmlText += `
 			<div class='item'>
 				<div class='item_img'>
-					<img src='images/${el}'>
+					<img src='images/${el}' class='element_img'>
 				</div>
 				<div class='item_text'>
 					<p>${name}</p>
@@ -71,16 +71,16 @@ function addDots() {
 }
 addDots();
 
-let item_img = document.querySelectorAll('.item_img');
+let element_img = document.querySelectorAll('.element_img');
 let slider = document.querySelector('.slider');
 let elementDot = document.querySelectorAll('.elementDot');
 let activClass = 'elementDotHover';
 let sliderElementsLength = sliderElements.length;
 let counter = Math.floor(sliderElementsLength/2);
-let size = item_img[0].clientWidth ;
+let size = element_img[0].clientWidth;
 slider.style.transform = 'translateX(' + (-size * counter) + 'px)'; 
 setInterval(function(){
-	size = item_img[0].clientWidth;
+	size = element_img[0].clientWidth;
 	slider.style.transition = 'transform 0s ease-in-out';
 	slider.style.transform = 'translateX(' + (-size * counter) + 'px)'; 
 	elementDot[counter].classList.add(activClass);

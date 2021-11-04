@@ -54,8 +54,7 @@ body {
 	cursor: pointer;
 	font-size: 35px;
 	margin: 5px;
-	color: aquamarine;
-	opacity: 0.8;
+	color: #000000;
 }
 .container_dots {
 	display: flex;
